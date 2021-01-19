@@ -1,45 +1,45 @@
-
 <!DOCTYPE html>
-<html lang="pt_BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/styles/styles.css">
-  <link rel="stylesheet" type="text/css" href="/styles/global.css">
-  <link rel="stylesheet" type="text/css" href="/styles/about.css">
-  <link rel="stylesheet" type="text/css" href="/styles/projects.css">
-  {# <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> #}
-  
-{% block head %}
-	<title	title> Lucas Xavier </title>
+<html lang="en">
 
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{% block head %}
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="styles/global.css">
+      <link rel="stylesheet" type="text/css" href="styles/styles.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+      <title	title> Home| Your Freelancers</title>
+    </head>
+
 {% endblock %}
-</head>
+
 <body>
   
   <div class="appContainer">
   
-    <div id="headerContainer">
-      <a href="/">Home</a>
-      <a href="/projects">Projects</a>
-      <a href="/contact">Contact</a>
+    <div class="headerContainer">
+      {# <img src="" alt="logo-yourFreelancers"> #}
+      <a href="/">Encontre um Freelancer</a>
+      <a href="/freelas">Encontre um Freela</a>
+      {# <button type="button" class="btn btn-outline-primary">Primary</button> #}
     </div>
 
+    <div class="mainContent">
+            <h1>Contrate Freelancers, gerencie freelancers! Existe sempre uma habiliade para um Freela a ser preechido.</h1>
+            <h2>Essa era a conexão que faltava!</h2>
 
-    
-    {% block content %}
-
-
-    {% endblock%}
-
-
-     <div id="footerContainer">
-        <a href="https://github.com/lucasxavier-dev">GitHub</a>
-        <a href="https://lucasxavier.medium.com/">Blog</a>          
-        <a href="https://br.linkedin.com/in/lucasxavier">Linkedin</a>
-        {# <p><a href="potfolio:lucasxavier_@outlook.com.br">lucasxavier_@outlook.com.br</a> © Lucas Xavier. All Rights Reserved.</p> #}
     </div>
+  </div>
 
+    {% block content %}{% endblock%}
+
+  
+  <div id="footerContainer">
+
+  </div>
 </body>
 </html>

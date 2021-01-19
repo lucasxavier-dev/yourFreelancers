@@ -2,23 +2,9 @@
 
 :root {
     --primary-color: #0C0024;
-      
     --second-color: #FCC92F;
-  
-    
     --third-color: #0F002D;
 
-    
-    --standard-color: #FFFF;
-  
-    --background-color: #FFFF;
-  
-    --first-color: #FCC92F;
-    --second-color: #FFFF;
-    
-    --primary-color-text:#212324;
-    --secondary-color-text:#FFFF;
-  
   }
 
   
@@ -30,21 +16,17 @@
   
 
   * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   }
   
-  body {
-    background-color: var(--background-color);
-   }
+
    
-   #footerContainer {
+ #footerContainer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: var(--third-color);
     color: white;
     text-align: center;
   
   }
-  

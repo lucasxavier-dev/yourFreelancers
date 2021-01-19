@@ -1,11 +1,10 @@
 {
-  "name": "yourFreelancers",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "This is a system for managing freelancers for your business.",
+  "description": "This is my Portfolio for personal presentation, the content is my projects and my works of the moment.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   }
-
 }
