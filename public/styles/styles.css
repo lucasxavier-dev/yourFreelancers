@@ -1,20 +1,76 @@
-.headerContainer {
-    background-color: #3498DB;
-    padding-bottom: 28px;
-    text-align: center;
+body {
+    background-color: var(--primary-color);
+}
 
+.headerContainer {
+    padding: 32px;
+    width:100%;
+    text-align: center;
+    box-sizing: border-box;
+    
+    background-color: #FFFF;
 }
 
 .headerContainer a {
-    color: #FFFF;
+    color: var(--primary-color);
     align-items: center;
-
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 600;
     
     display: inline-block;
     padding: 4px;
-    margin-right: 8px;
-    margin-top: 16px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    margin-top: 8px;
+
+    
+    
+    
+    
+    text-decoration: none;
+    margin-left: 32px;
+    font-size: 20px;
 }
+
+.headerContainer a:active {
+    font-weight: bold;
+    color: var(--second-color);
+
+}
+
+.headerContainer a:hover {
+    color: var(--second-color);
+}
+
+.headerContainer a::after {
+        content: "";
+    width: 0;
+    height: 2px;
+    color: var(--second-color);
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+
+
+}
+
+        /* pseudoElement */
+.headerContainer a:hover::after {
+    width: 100%;
+    transition: width 200ms ease-in-out;
+
+}
+
+
+
+
+/* .headerContainer .logoYourFreelancers img {
+    max-width: 60px;
+} */
+
+.mainContent {
+    margin: 1rem;
+}
+
+.mainContent h1{
+    margin-bottom: 1rem;
+}
+
+.mainContent h2{}
